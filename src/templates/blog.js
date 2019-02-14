@@ -56,6 +56,7 @@ class IndexPage extends Component {
       location,
       pageContext: { pageNumber },
     } = this.props
+    console.log(this.props)
     const blogPageNumber = pageNumber ? ` Page ${pageNumber}` : ``
     return (
       <HomepageLayout pageNumber={pageNumber} location={{ location }}>
@@ -103,7 +104,7 @@ class IndexPage extends Component {
 
 export default IndexPage
 
-export const pageQuery = graphql`
+export const query = graphql`
   query GET_POSTS($ids: [ID]) {
     wpgraphql {
       posts(where: { in: $ids }) {
