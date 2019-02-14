@@ -56,7 +56,6 @@ class IndexPage extends Component {
       location,
       pageContext: { pageNumber },
     } = this.props
-    console.log(this.props)
     const blogPageNumber = pageNumber ? ` Page ${pageNumber}` : ``
     return (
       <HomepageLayout pageNumber={pageNumber} location={{ location }}>

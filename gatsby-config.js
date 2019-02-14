@@ -62,7 +62,7 @@ module.exports = {
         // This is field under which it's accessible
         fieldName: `wpgraphql`,
         // Url to query from
-        url: `https://wpgraphqldemo.wpengine.com/graphql`,
+        url: `https://demo.wpgraphql.com/graphql`,
       },
     },
     `gatsby-plugin-react-helmet`,
