@@ -20,14 +20,11 @@ const Page = props => {
       <Seo title={`${page.title}`} />
       <Row type="flex" gutter={24}>
         <Col xs={24} md={16}>
-          <h1 style={{ wordBreak: `break-all` }}>{title}</h1>
+          <h1>{title}</h1>
           <Divider />
           <Row type="flex" justify="space-around" gutter={24}>
             <Col xs={24}>
-              <div
-                style={{ wordBreak: `break-all` }}
-                dangerouslySetInnerHTML={{ __html: content }}
-              />
+              <div dangerouslySetInnerHTML={{ __html: content }} />
             </Col>
           </Row>
         </Col>
