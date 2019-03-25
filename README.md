@@ -12,6 +12,8 @@
 
 This is an example Gatsby site using WPGraphQL as the source. 
 
+This repo was created specifically for showcasing the capabilities of WPGraphQL and how it can be used in many ways. One particular use is with GatsbyJS. The WordCamp talk this repo was created for can be seen here: https://wordpress.tv/2019/03/08/jason-bahl-building-static-sites-with-wordpress-gatsby-and-wpgraphql/
+
 ## Setup
 
 Quick video showing setup of the Gatsby site locally: https://www.youtube.com/watch?v=QkIuuZ5gZNk
