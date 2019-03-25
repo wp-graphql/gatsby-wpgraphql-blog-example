@@ -12,6 +12,10 @@
 
 This is an example Gatsby site using WPGraphQL as the source. 
 
+## Setup
+
+Quick video showing setup of the Gatsby site locally: https://www.youtube.com/watch?v=QkIuuZ5gZNk
+
 ## WordPress Source
 
 The WordPress where the content is managed lives here: [https://demo.wpgraphql.com](https://demo.wpgraphql.com)
