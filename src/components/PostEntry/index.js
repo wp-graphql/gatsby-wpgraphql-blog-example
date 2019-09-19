@@ -17,7 +17,7 @@ const PostEntry = ({ post }) => {
           </h2>
           <div
             dangerouslySetInnerHTML={{
-              __html: post.content.replace(config.wordPressUrl, ``),
+              __html: post.content ? post.content.replace(config.wordPressUrl, ``) : post.content,
             }}
           />
         </Col>
