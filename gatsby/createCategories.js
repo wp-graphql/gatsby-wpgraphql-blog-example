@@ -3,7 +3,7 @@ module.exports = async ({ actions, graphql }) => {
   const GET_CATEGORIES = `
   query GET_CATEGORIES($first: Int, $after: String) {
     wpgraphql {
-      tags(first: $first, after: $after) {
+      categories(first: $first, after: $after) {
         pageInfo {
           hasNextPage
           endCursor
