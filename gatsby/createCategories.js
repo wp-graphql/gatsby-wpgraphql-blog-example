@@ -1,9 +1,9 @@
 const path = require(`path`)
 module.exports = async ({ actions, graphql }) => {
   const GET_CATEGORIES = `
-  query GET_CATEGORIES($first: Int) {
-    wpgraphql { 
-      categories(first: $first) {
+  query GET_CATEGORIES($first: Int, $after: String) {
+    wpgraphql {
+      categories(first: $first, after: $after) {
         pageInfo {
           hasNextPage
           endCursor
