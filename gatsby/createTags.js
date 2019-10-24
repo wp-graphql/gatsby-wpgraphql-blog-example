@@ -1,9 +1,9 @@
 const path = require(`path`)
 module.exports = async ({ actions, graphql }) => {
   const GET_TAGS = `
-  query GET_TAGS($first: Int) {
-    wpgraphql { 
-      tags(first: $first) {
+  query GET_TAGS($first: Int, $after: String) {
+    wpgraphql {
+      tags(first: $first, after: $after) {
         pageInfo {
           hasNextPage
           endCursor
