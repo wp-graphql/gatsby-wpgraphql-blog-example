@@ -30,7 +30,7 @@
     "gatsby-source-graphql": "^2.0.8",
     "gatsby-transformer-sharp": "^2.1.8",
     "less": "^3.9.0",
-    "lodash": "^4.17.11",
+    "lodash": "^4.17.19",
     "moment": "^2.24.0",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
