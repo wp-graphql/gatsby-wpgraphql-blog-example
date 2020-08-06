@@ -1,3 +1,13 @@
+# DEPRECATED
+----
+This repository serves as an example of how to build a Gatsby site using WordPress as the CMS, WPGraphQL as the API and Gatsby Source GraphQL as the data source. 
+
+This example repo should no longer be considered "the best" way to use Gatsby and GraphQL anymore. Instead of using Gatsby Source GraphQL, we recommend using [Gatsby Source WordPress Experimental](https://github.com/gatsbyjs/gatsby-source-wordpress-experimental), which will soon become the official Gatsby Source WordPress. 
+
+You can read more about why previous versions of Gatsby Source WordPress and Gatsby Source GraphQL are not ideal, and why Gatsby is investing in the new Gatsby Source WordPress Experimental plugin in this WPTavern article: https://wptavern.com/new-gatsby-source-wordpress-plugin-now-in-beta
+
+----
+
 <p align="center">
   <a href="https://www.gatsbyjs.org">
     <img alt="Gatsby" src="https://www.gatsbyjs.org/monogram.svg" width="60" />
