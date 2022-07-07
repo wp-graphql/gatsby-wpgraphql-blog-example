@@ -31,7 +31,7 @@
     "gatsby-transformer-sharp": "^2.1.8",
     "less": "^3.9.0",
     "lodash": "^4.17.11",
-    "moment": "^2.24.0",
+    "moment": "^2.29.4",
     "prop-types": "^15.6.2",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
